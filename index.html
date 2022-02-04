@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | LEAFTOKEN GAME</title>
+    <title>LEAFTOKEN GAME</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body>
+	 <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
-      <div id="unity-loading-bar">
+      <canvas id="unity-canvas" width="960" height="600"></canvas>
+      <div id="unity-loading-bar">  
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
@@ -56,12 +56,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/LEAFTOKEN GAME.asm.loader.js";
+      var loaderUrl = buildUrl + "/LEAF TOKEN GAME.asm.loader.js";
       var config = {
-        dataUrl: buildUrl + "/LEAFTOKEN GAME.data",
-        frameworkUrl: buildUrl + "/LEAFTOKEN GAME.asm.framework.js",
-        codeUrl: buildUrl + "/LEAFTOKEN GAME.asm.js",
-        memoryUrl: buildUrl + "/LEAFTOKEN GAME.asm.mem",
+        dataUrl: buildUrl + "/LEAF TOKEN GAME.data",
+        frameworkUrl: buildUrl + "/LEAF TOKEN GAME.asm.framework.js",
+        codeUrl: buildUrl + "/LEAF TOKEN GAME.asm.js",
+        memoryUrl: buildUrl + "/LEAF TOKEN GAME.asm.mem",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "LEAFTOKEN GAME",
@@ -86,6 +86,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
+      canvas.style.background = "url('" + buildUrl + "/LEAF TOKEN GAME.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
@@ -104,5 +105,8 @@
       };
       document.body.appendChild(script);
     </script>
+		 <div id="unity-adright">									
+		<a href="https://sickcity.buynfts.exchange/sick2/buy-888.asp">
+         <img src="TemplateData/ad.png"> </a></div>
   </body>
 </html>
